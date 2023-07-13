@@ -37,12 +37,12 @@ h1 {
 
 .text {
     text-align: center;
-    padding: 0 120px 0 120px;
+    padding: 0 100px 0 100px;
     color: black;
 }
 
 .cards {
-    margin-left: 130px;
+    margin-left: 100px;
 }
 
 .card {
@@ -52,19 +52,21 @@ h1 {
 
 .card img {
     max-width: 100px;
-    display: block;
 }
 
 .info {
     background-color: black;
     height: 100px;
-    padding-right: 50px;
+    padding-right: 60px;
+    width: 250px;
 }
 
 .info .name {
     padding: 10px 0 5px 20px;
     font-weight: 800;
+    text-transform: uppercase;
 }
+
 
 .info .job {
     padding: 5px 0 5px 20px;
