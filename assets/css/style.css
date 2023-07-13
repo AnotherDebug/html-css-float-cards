@@ -10,13 +10,20 @@
     float: left;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 
-.cards {
+
+
+.card {
     background-color: red;
-    width: 100%;
-    height: 500px;
     border: 1px solid #000;
+    width: calc(100% / 3 );
+    padding: 20px;
 }
 
 .photo {
@@ -26,8 +33,5 @@
 }
 
 .info {
-    width: 200px;
-    height: 100px;
     background-color: green;
 }
-
