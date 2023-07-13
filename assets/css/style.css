@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+.float-left {
+    float: left;
+}
+
+
+
+.cards {
+    background-color: red;
+    width: 100%;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.info {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}
+
