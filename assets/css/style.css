@@ -6,8 +6,18 @@
 
 
 
+body {
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+}
+
+.container {
+    padding: 30px 150px;
+    margin: auto;
+}
+
 .float-left {
-    float:left;
+    float: left;
 }
 
 .clearfix::after {
@@ -18,15 +28,53 @@
 
 
 
+
+h1 {
+    text-align: center;
+    padding-bottom: 60px;
+    color: #e53170;
+}
+
+.text {
+    text-align: center;
+    padding: 0 120px 0 120px;
+    color: black;
+}
+
+.cards {
+    margin-left: 130px;
+}
+
 .card {
+    width: 33.33%;
     margin-top: 30px;
 }
 
 .card img {
     max-width: 100px;
+    display: block;
 }
 
 .info {
-    background-color: green;
-    padding: 22px;
+    background-color: black;
+    height: 100px;
+    padding-right: 50px;
+}
+
+.info .name {
+    padding: 10px 0 5px 20px;
+    font-weight: 800;
+}
+
+.info .job {
+    padding: 5px 0 5px 20px;
+}
+
+.info .website {
+    padding: 5px 0 5px 20px;
+    color: #3fc4ee;
+}
+
+a {
+    text-decoration: none;
 }
